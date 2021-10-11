@@ -41,25 +41,6 @@ body {
 	transition: color 0.5s background 0.3s background-color 0.3s;
 }
 
-body:before {
-	position: absolute;
-	top: 0;
-	left: 10vw;
-
-	width: 80vw;
-	height: 100vh;
-
-	opacity: 0.05;
-	background: radial-gradient(
-		50% 50% at 50% 50%,
-		var(--pure-white) 0%,
-		rgba(255, 255, 255, 0) 100%
-	);
-
-	content: '';
-	z-index: -1;
-}
-
 #svelte {
 	display: flex;
 	flex-direction: column;
@@ -72,28 +53,31 @@ h2 {
 	font-family: var(--font-primary);
 	font-weight: 500;
 
-	color: var(--dark-a, --heading-color);
-
 	letter-spacing: 1.2px;
 	word-spacing: 8px;
+
+	color: var(--dark-a);
 }
 
-p {
+p,
+li {
 	font-family: var(--font-primary);
 	font-size: 1.2em;
 	font-weight: 200;
 	line-height: 1.5;
 
 	color: var(--dark-a, --text-color);
+
+	& a {
+		color: var(--dark-c);
+	}
 }
 
 a {
-	font-family: var(--font-secondary);
-	font-weight: 300;
+	text-decoration: underline;
+	text-decoration-color: var(--light-d);
 
-	color: var(--brand-a);
-
-	text-decoration: none;
+	color: var(--dark-a);
 }
 
 a:hover {
@@ -109,7 +93,7 @@ h1 {
 }
 
 h2 {
-	font-size: 1rem;
+	font-size: 1.5rem;
 }
 
 pre {
@@ -118,7 +102,7 @@ pre {
 	font-family: var(--font-mono);
 	font-size: 16px;
 
-	color: var(--text-color);
+	color: var(--dark-a);
 	border-radius: 3px;
 	background-color: rgba(255, 255, 255, 0.45);
 	box-shadow: 2px 2px 6px rgb(255 255 255 / 25%);

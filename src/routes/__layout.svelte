@@ -2,7 +2,7 @@
 	import { page } from '$app/stores'
 	import { Header } from '$lib/ui'
 	import 'greset/css/greset.css'
-	import '../../styles/app.scss'
+	import '../styles/app.scss'
 
 	const pageTitle = (path: string) => {
 		if (path === '/') return 'Home'

@@ -15,14 +15,7 @@ const config = {
 	kit: {
 		target: '#svelte',
 		adapter: vercel(),
-		ssr: !!process.env.SSR,
-		vite: {
-			server: {
-				fs: {
-					strict: false
-				}
-			}
-		}
+		ssr: !!process.env.SSR
 	}
 }
 

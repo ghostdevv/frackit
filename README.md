@@ -31,4 +31,4 @@ features
 -   [Dark Theme](https://github.com/fractalhq/#ThemeToggle)
 -   [Fractils](https://github.com/fractalhq/fractils)
 -   [Greset](https://github.com/ghostdevv/greset)
--   [Local](https://github.com/FractalHQ/frackit/tree/main/static/fonts) Font [Setup](https://github.com/FractalHQ/frackit/blob/main/styles/app.scss#L4-L24)
+-   [Local](https://github.com/FractalHQ/frackit/tree/main/static/fonts) Font [Setup](https://github.com/FractalHQ/frackit/blob/main/src/styles/app.scss#L4-L24)

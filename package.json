@@ -36,7 +36,7 @@
 		"rehype-slug": "^4.0.1",
 		"remark-abbr": "^1.4.1",
 		"remark-github": "^10.1.0",
-		"sass": "^1.43.5",
+		"sass": "^1.44.0",
 		"stylefmt": "^6.0.3",
 		"stylelint": "^13.13.1",
 		"stylelint-config-idiomatic-order": "^8.1.0",

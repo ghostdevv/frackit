@@ -6,13 +6,13 @@ specifiers:
   '@sveltejs/kit': next
   autoprefixer: ^10.4.0
   cssnano: ^5.0.12
-  fractils: ^1.0.10
+  fractils: ^1.0.14
   greset: ^1.0.0
   mdsvex: ^0.9.8
   postcss: ^8.4.4
   postcss-load-config: ^3.1.0
   prettier: ^2.5.1
-  prettier-plugin-svelte: ^2.5.0
+  prettier-plugin-svelte: ^2.5.1
   pug: ^3.0.2
   rehype-autolink-headings: ^5.1.0
   rehype-slug: ^4.0.1
@@ -27,7 +27,7 @@ specifiers:
   svelte: ^3.44.2
   svelte-preprocess: 4.7.4
   tslib: ^2.3.1
-  typescript: ^4.5.2
+  typescript: ^4.5.3
 
 dependencies:
   '@fontsource/fira-mono': 4.5.0
@@ -37,13 +37,13 @@ devDependencies:
   '@sveltejs/kit': 1.0.0-next.201_sass@1.44.0+svelte@3.44.2
   autoprefixer: 10.4.0_postcss@8.4.4
   cssnano: 5.0.12_postcss@8.4.4
-  fractils: 1.0.10
+  fractils: 1.0.14
   greset: 1.0.0
   mdsvex: 0.9.8_svelte@3.44.2
   postcss: 8.4.4
   postcss-load-config: 3.1.0
   prettier: 2.5.1
-  prettier-plugin-svelte: 2.5.0_prettier@2.5.1+svelte@3.44.2
+  prettier-plugin-svelte: 2.5.1_prettier@2.5.1+svelte@3.44.2
   pug: 3.0.2
   rehype-autolink-headings: 5.1.0
   rehype-slug: 4.0.1
@@ -56,9 +56,9 @@ devDependencies:
   stylelint-order: 4.1.0_stylelint@13.13.1
   stylelint-scss: 3.21.0_stylelint@13.13.1
   svelte: 3.44.2
-  svelte-preprocess: 4.7.4_b0a5a698831278625ad57a051330c402
+  svelte-preprocess: 4.7.4_476322a16b271aed1ae26393a2cd4ab4
   tslib: 2.3.1
-  typescript: 4.5.2
+  typescript: 4.5.3
 
 packages:
 
@@ -593,7 +593,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.18.1
-      caniuse-lite: 1.0.30001285
+      caniuse-lite: 1.0.30001286
       fraction.js: 4.1.2
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -605,7 +605,7 @@ packages:
     resolution: {integrity: sha1-Hb0cg1ZY41zj+ZhAmdsAWFx4IBQ=}
     dependencies:
       browserslist: 1.7.7
-      caniuse-db: 1.0.30001285
+      caniuse-db: 1.0.30001286
       normalize-range: 0.1.2
       num2fraction: 1.2.2
       postcss: 5.2.18
@@ -617,7 +617,7 @@ packages:
     hasBin: true
     dependencies:
       browserslist: 4.18.1
-      caniuse-lite: 1.0.30001285
+      caniuse-lite: 1.0.30001286
       normalize-range: 0.1.2
       num2fraction: 1.2.2
       picocolors: 0.2.1
@@ -689,8 +689,8 @@ packages:
     deprecated: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
     hasBin: true
     dependencies:
-      caniuse-db: 1.0.30001285
-      electron-to-chromium: 1.4.12
+      caniuse-db: 1.0.30001286
+      electron-to-chromium: 1.4.16
     dev: true
 
   /browserslist/4.18.1:
@@ -698,8 +698,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001285
-      electron-to-chromium: 1.4.12
+      caniuse-lite: 1.0.30001286
+      electron-to-chromium: 1.4.16
       escalade: 3.1.1
       node-releases: 2.0.1
       picocolors: 1.0.0
@@ -748,17 +748,17 @@ packages:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
       browserslist: 4.18.1
-      caniuse-lite: 1.0.30001285
+      caniuse-lite: 1.0.30001286
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: true
 
-  /caniuse-db/1.0.30001285:
-    resolution: {integrity: sha512-3bYDZDDQcdWJJFO8i+hUbaJJcHyTPWAzRWx8pOG0kmmBCTUB6M8eJ83AniGVj7CFy1QhqTbI+HmQKAVjUdwKfg==}
+  /caniuse-db/1.0.30001286:
+    resolution: {integrity: sha512-r5F4eY7LpqtmNdMe1tZmut2fKKE0SFjuUoX3PlYLE4UHK1rLw1m64792vg6iuOucZI5HNhocB1F7YEo4aJe0lg==}
     dev: true
 
-  /caniuse-lite/1.0.30001285:
-    resolution: {integrity: sha512-KAOkuUtcQ901MtmvxfKD+ODHH9YVDYnBt+TGYSz2KIfnq22CiArbUxXPN9067gNbgMlnNYRSwho8OPXZPALB9Q==}
+  /caniuse-lite/1.0.30001286:
+    resolution: {integrity: sha512-zaEMRH6xg8ESMi2eQ3R4eZ5qw/hJiVsO/HlLwniIwErij0JDr9P+8V4dtx1l+kLq6j3yy8l8W4fst1lBnat5wQ==}
     dev: true
 
   /chalk/1.1.3:
@@ -1164,7 +1164,7 @@ packages:
     hasBin: true
     dependencies:
       browserslist: 1.7.7
-      caniuse-db: 1.0.30001285
+      caniuse-db: 1.0.30001286
       css-rule-stream: 1.1.0
       duplexer2: 0.0.2
       jsonfilter: 1.1.2
@@ -1249,8 +1249,8 @@ packages:
       sigmund: 1.0.1
     dev: true
 
-  /electron-to-chromium/1.4.12:
-    resolution: {integrity: sha512-zjfhG9Us/hIy8AlQ5OzfbR/C4aBv1Dg/ak4GX35CELYlJ4tDAtoEcQivXvyBdqdNQ+R6PhlgQqV8UNPJmhkJog==}
+  /electron-to-chromium/1.4.16:
+    resolution: {integrity: sha512-BQb7FgYwnu6haWLU63/CdVW+9xhmHls3RCQUFiV4lvw3wimEHTVcUk2hkuZo76QhR8nnDdfZE7evJIZqijwPdA==}
     dev: true
 
   /emoji-regex/8.0.0:
@@ -1617,8 +1617,8 @@ packages:
       for-in: 1.0.2
     dev: true
 
-  /fractils/1.0.10:
-    resolution: {integrity: sha512-IarX5NgA9rymh6BtxmsmZwoi2DMgFA59wYwPhqM2ehy+yw0NTlyMhYwWKgNtCfW+kwU7F74i8UIJFZ4EDPUqZw==}
+  /fractils/1.0.14:
+    resolution: {integrity: sha512-53qtbViUY23O4+XKEWOdsi8YXOH0nKHlvuKfe0iPlpJ+YO75yEN9UCPsBVUlW9fFfMdZfAeHm3du+Q2X1cs/mQ==}
     dev: true
 
   /fraction.js/4.1.2:
@@ -2833,7 +2833,7 @@ packages:
       postcss: ^8.2.2
     dependencies:
       postcss: 8.4.4
-      postcss-selector-parser: 6.0.6
+      postcss-selector-parser: 6.0.7
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -2959,7 +2959,7 @@ packages:
       caniuse-api: 3.0.0
       cssnano-utils: 2.0.1_postcss@8.4.4
       postcss: 8.4.4
-      postcss-selector-parser: 6.0.6
+      postcss-selector-parser: 6.0.7
     dev: true
 
   /postcss-minify-font-values/5.0.1_postcss@8.4.4:
@@ -3005,7 +3005,7 @@ packages:
     dependencies:
       alphanum-sort: 1.0.2
       postcss: 8.4.4
-      postcss-selector-parser: 6.0.6
+      postcss-selector-parser: 6.0.7
     dev: true
 
   /postcss-normalize-charset/5.0.1_postcss@8.4.4:
@@ -3199,8 +3199,8 @@ packages:
       uniq: 1.0.1
     dev: true
 
-  /postcss-selector-parser/6.0.6:
-    resolution: {integrity: sha512-9LXrvaaX3+mcv5xkg5kFwqSzSH1JIObIx51PrndZwlmznwXRfxMddDvo9gve3gVR8ZTKgoFDdWkbRFmEhT4PMg==}
+  /postcss-selector-parser/6.0.7:
+    resolution: {integrity: sha512-U+b/Deoi4I/UmE6KOVPpnhS7I7AYdKbhGcat+qTQ27gycvaACvNEw11ba6RrkwVmDVRW7sigWgLj4/KbbJjeDA==}
     engines: {node: '>=4'}
     dependencies:
       cssesc: 3.0.0
@@ -3250,7 +3250,7 @@ packages:
     dependencies:
       alphanum-sort: 1.0.2
       postcss: 8.4.4
-      postcss-selector-parser: 6.0.6
+      postcss-selector-parser: 6.0.7
     dev: true
 
   /postcss-value-parser/3.3.1:
@@ -3302,8 +3302,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /prettier-plugin-svelte/2.5.0_prettier@2.5.1+svelte@3.44.2:
-    resolution: {integrity: sha512-+iHY2uGChOngrgKielJUnqo74gIL/EO5oeWm8MftFWjEi213lq9QYTOwm1pv4lI1nA61tdgf80CF2i5zMcu1kw==}
+  /prettier-plugin-svelte/2.5.1_prettier@2.5.1+svelte@3.44.2:
+    resolution: {integrity: sha512-IhZUcqr7Bg4LY15d87t9lDr7EyC0IPehkzH5ya5igG8zYwf3UYaYDFnVW2mckREaZyLREcH9YOouesmt4f5Ozg==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
@@ -3689,8 +3689,8 @@ packages:
       glob: 7.2.0
     dev: true
 
-  /rollup/2.60.2:
-    resolution: {integrity: sha512-1Bgjpq61sPjgoZzuiDSGvbI1tD91giZABgjCQBKM5aYLnzjq52GoDuWVwT/cm/MCxCMPU8gqQvkj8doQ5C8Oqw==}
+  /rollup/2.61.0:
+    resolution: {integrity: sha512-teQ+T1mUYbyvGyUavCodiyA9hD4DxwYZJwr/qehZGhs1Z49vsmzelMVYMxGU4ZhGRKxYPupHuz5yzm/wj7VpWA==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
@@ -3985,7 +3985,7 @@ packages:
     dependencies:
       browserslist: 4.18.1
       postcss: 8.4.4
-      postcss-selector-parser: 6.0.6
+      postcss-selector-parser: 6.0.7
     dev: true
 
   /stylelint-config-idiomatic-order/8.1.0_stylelint@13.13.1:
@@ -4038,7 +4038,7 @@ packages:
       lodash: 4.17.21
       postcss-media-query-parser: 0.2.3
       postcss-resolve-nested-selector: 0.1.1
-      postcss-selector-parser: 6.0.6
+      postcss-selector-parser: 6.0.7
       postcss-value-parser: 4.2.0
       stylelint: 13.13.1
     dev: true
@@ -4082,7 +4082,7 @@ packages:
       postcss-safe-parser: 4.0.2
       postcss-sass: 0.4.4
       postcss-scss: 2.1.1
-      postcss-selector-parser: 6.0.6
+      postcss-selector-parser: 6.0.7
       postcss-syntax: 0.36.2_postcss@7.0.39
       postcss-value-parser: 4.2.0
       resolve-from: 5.0.0
@@ -4192,7 +4192,7 @@ packages:
       svelte: 3.44.2
     dev: true
 
-  /svelte-preprocess/4.7.4_b0a5a698831278625ad57a051330c402:
+  /svelte-preprocess/4.7.4_476322a16b271aed1ae26393a2cd4ab4:
     resolution: {integrity: sha512-mDAmaltQl6e5zU2VEtoWEf7eLTfuOTGr9zt+BpA3AGHo8MIhKiNSPE9OLTCTOMgj0vj/uL9QBbaNmpG4G1CgIA==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -4242,7 +4242,7 @@ packages:
       sass: 1.44.0
       strip-indent: 3.0.0
       svelte: 3.44.2
-      typescript: 4.5.2
+      typescript: 4.5.3
     dev: true
 
   /svelte/3.44.2:
@@ -4371,8 +4371,8 @@ packages:
       is-typedarray: 1.0.0
     dev: true
 
-  /typescript/4.5.2:
-    resolution: {integrity: sha512-5BlMof9H1yGt0P8/WF+wPNw6GfctgGjXp5hkblpyT+8rkASSmkUKMXrxR0Xg8ThVCi/JnHQiKXeBaEwCeQwMFw==}
+  /typescript/4.5.3:
+    resolution: {integrity: sha512-eVYaEHALSt+s9LbvgEv4Ef+Tdq7hBiIZgii12xXJnukryt3pMgJf6aKhoCZ3FWQsu6sydEnkg11fYXLzhLBjeQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
@@ -4479,7 +4479,7 @@ packages:
       esbuild: 0.13.15
       postcss: 8.4.4
       resolve: 1.20.0
-      rollup: 2.60.2
+      rollup: 2.61.0
       sass: 1.44.0
     optionalDependencies:
       fsevents: 2.3.2

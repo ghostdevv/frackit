@@ -39,9 +39,11 @@
 
 	li {
 		list-style: none;
+
+		color: var(--dark-a);
 	}
 
-	nav a {
+	a {
 		display: flex;
 		align-items: center;
 
@@ -54,12 +56,18 @@
 		text-decoration: none;
 		letter-spacing: 10%;
 
-		color: var(--dark-a);
+		color: currentColor;
 
 		transition: color 0.15s linear;
 	}
 
 	a:hover {
+		text-decoration: none;
+
+		color: var(--brand-a);
+	}
+
+	.active {
 		color: var(--brand-a);
 	}
 </style>

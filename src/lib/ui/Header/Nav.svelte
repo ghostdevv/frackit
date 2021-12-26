@@ -2,8 +2,8 @@
 	import { page } from '$app/stores'
 
 	const links = [
-		['/', 'Home'],
-		['/about', 'About']
+		['/about', 'About'],
+		['/contact', 'Contact']
 	]
 </script>
 

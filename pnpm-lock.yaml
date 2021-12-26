@@ -6,7 +6,7 @@ specifiers:
   '@sveltejs/kit': next
   autoprefixer: ^10.4.0
   cssnano: ^5.0.14
-  fractils: ^1.0.15
+  fractils: ^1.0.16
   greset: ^1.0.0
   mdsvex: ^0.9.8
   postcss: ^8.4.5
@@ -37,7 +37,7 @@ devDependencies:
   '@sveltejs/kit': 1.0.0-next.202_sass@1.45.1+svelte@3.44.3
   autoprefixer: 10.4.0_postcss@8.4.5
   cssnano: 5.0.14_postcss@8.4.5
-  fractils: 1.0.15
+  fractils: 1.0.16
   greset: 1.0.0
   mdsvex: 0.9.8_svelte@3.44.3
   postcss: 8.4.5
@@ -1598,8 +1598,8 @@ packages:
       for-in: 1.0.2
     dev: true
 
-  /fractils/1.0.15:
-    resolution: {integrity: sha512-m5cES6eoCI7yDk2Xl/+iDznL47R6tFRQqxQchJMGhubcvod+UJUMhsLEt6bGYXMlLfEF/t0DD0FYHQca5LC+jw==}
+  /fractils/1.0.16:
+    resolution: {integrity: sha512-vdodPlqDb7N9sP6b0fW5ruiipWXB7Bn4Ipw/wuOqhuZy9nVCfd4fOAHM66bgfWyjFv+qfVxBnVJkaNSsq0zKzQ==}
     dev: true
 
   /fraction.js/4.1.2:

@@ -24,7 +24,7 @@
 		"@sveltejs/kit": "next",
 		"autoprefixer": "^10.4.0",
 		"cssnano": "^5.0.14",
-		"fractils": "^1.0.15",
+		"fractils": "^1.0.16",
 		"greset": "^1.0.0",
 		"mdsvex": "^0.9.8",
 		"postcss": "^8.4.5",

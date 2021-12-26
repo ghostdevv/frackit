@@ -65,7 +65,7 @@
 	:global(html[theme='dark'] .windows .light) {
 		fill: #000000 !important;
 	}
-	.homeicon {
+	.home-icon {
 		$size: 40px;
 		width: $size;
 		height: $size;

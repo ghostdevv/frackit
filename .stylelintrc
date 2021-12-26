@@ -1,15 +1,13 @@
 {
 	"extends": "stylelint-config-idiomatic-order",
-	"plugins": [
-		"stylelint-order"
-	],
+	"plugins": ["stylelint-order"],
 	"rules": {
 		"indentation": "tab",
 		"string-quotes": "single",
 		"no-duplicate-selectors": true,
 		"color-hex-length": "long",
 		"selector-combinator-space-after": "always",
-		"selector-attribute-quotes": "never",
+		"selector-attribute-quotes": "always",
 		"selector-attribute-operator-space-before": "never",
 		"selector-attribute-operator-space-after": "never",
 		"selector-attribute-brackets-space-inside": "never",

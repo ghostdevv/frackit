@@ -69,7 +69,6 @@
 		$size: 40px;
 		width: $size;
 		height: $size;
-		padding: 5px;
 
 		color: var(--dark-b);
 

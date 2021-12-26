@@ -26,6 +26,8 @@
 	nav {
 		display: flex;
 		justify-content: center;
+
+		padding: 2rem;
 	}
 
 	ul {
@@ -45,16 +47,16 @@
 
 		height: 100%;
 
-		font-size: 0.8rem;
+		font-size: 1.2rem;
 		font-weight: 700;
-
-		color: var(--dark-a);
-
-		transition: color 0.15s linear;
 
 		text-transform: uppercase;
 		text-decoration: none;
 		letter-spacing: 10%;
+
+		color: var(--dark-a);
+
+		transition: color 0.15s linear;
 	}
 
 	a:hover {

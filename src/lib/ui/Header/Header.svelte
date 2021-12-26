@@ -1,6 +1,6 @@
 <script lang="ts">
+	import HomeIcon from '$lib/graphics/HomeIcon.svelte'
 	import { ThemeToggle } from 'fractils'
-	import Logo from './Logo.svelte'
 	import Nav from './Nav.svelte'
 </script>
 
@@ -10,7 +10,7 @@
 
 		#home.corner
 			a(href='/')
-				Logo
+				HomeIcon
 
 		Nav
 

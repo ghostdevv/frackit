@@ -49,22 +49,21 @@
 
 		height: 100%;
 
+		color: currentColor;
+
 		font-size: 1.2rem;
 		font-weight: 700;
-
 		text-transform: uppercase;
 		text-decoration: none;
 		letter-spacing: 10%;
-
-		color: currentColor;
 
 		transition: color 0.15s linear;
 	}
 
 	a:hover {
-		text-decoration: none;
-
 		color: var(--brand-a);
+
+		text-decoration: none;
 	}
 
 	.active {

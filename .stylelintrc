@@ -5,7 +5,7 @@
 		"indentation": "tab",
 		"string-quotes": "single",
 		"no-duplicate-selectors": true,
-		"color-hex-length": "long",
+		"color-hex-length": null,
 		"selector-combinator-space-after": "always",
 		"selector-attribute-quotes": "always",
 		"selector-attribute-operator-space-before": "never",

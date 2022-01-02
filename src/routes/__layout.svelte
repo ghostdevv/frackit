@@ -14,7 +14,7 @@
 <template lang="pug">
 
 	svelte:head
-		title {pageTitle($page.path)} · Frackit
+		title {pageTitle($page.url.pathname)} · Frackit
 
 	Header
 

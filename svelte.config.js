@@ -13,7 +13,6 @@ const config = {
 		mdsvex(mdsvexConfig)
 	],
 	kit: {
-		target: '#svelte',
 		adapter: vercel()
 	}
 }

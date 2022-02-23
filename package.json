@@ -17,7 +17,7 @@
 		"format": "prettier --write --plugin-search-dir=. ."
 	},
 	"dependencies": {
-		"@fontsource/fira-mono": "^4.5.2"
+		"@fontsource/fira-mono": "^4.5.3"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-vercel": "next",

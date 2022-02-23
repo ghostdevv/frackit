@@ -12,7 +12,7 @@ const mdsvexConfig = {
 		[
 			github,
 			{
-				repository: 'https://github.com/fractal-hq/svelte-playground-kit.git'
+				repository: 'https://github.com/fractalhq/frackit.git'
 			}
 		],
 		abbr
